@@ -23,17 +23,6 @@ interface StageProviderProps {
   setRedo: React.Dispatch<React.SetStateAction<ShapeProps[][]>>
 
 }
-interface StarProps{
-  id: string
-  x: number
-  y: number
-  fill?: string,
-  width: number,
-  height: number,
-  isDragging: boolean,
-  innerRadius: number,
-  outerRadius: number
-}
 interface ShapeProps{
   id: string
   x: number
@@ -45,14 +34,6 @@ interface ShapeProps{
   innerRadius?: number | null
   outerRadius?: number | null
   type: string
-}
-interface RectProps{
-  id: string
-  x: number
-  y: number
-  fill: string,
-  width: number,
-  height: number,
 }
 const ESCAPE_KEYS = ['27', 'Escape'];
 const DELETE_KEYS = ['46', '8', 'Backspace', 'Delete'];
