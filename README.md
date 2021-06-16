@@ -7,7 +7,7 @@ Canvas editor application built with React and and KonvaJs
 #### Implemented:
 
 * Shape creation with defaults properties
-* Resise, rotation and drag functionality
+* Resize, rotation and drag functionality
 * Redo/Undo functionality
 * Duplicate functionality
 * Change shape layer
